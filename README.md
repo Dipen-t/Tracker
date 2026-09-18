@@ -56,3 +56,8 @@ npm run dev         # Starts frontend on http://localhost:5173
 - **Frontend**: Deployed on Vercel. Includes a `vercel.json` for proper React Router SPA fallback.
 - **Backend**: Deployed on Render.
 - **Database**: We use **Neon** for our serverless Postgres database. Simply retrieve the Postgres connection string from your Neon dashboard and set it as the `DATABASE_URL` environment variable on your backend host.
+
+SCREENSHOTS
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
