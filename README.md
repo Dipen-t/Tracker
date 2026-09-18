@@ -52,6 +52,10 @@ npm run dev         # Starts frontend on http://localhost:5173
 ## Live Demo
 **Frontend URL:** [https://tracker-chi-blue.vercel.app/](https://tracker-chi-blue.vercel.app/)
 
+**Demo Login Credentials:**
+- **Email:** `dipenntalreja@gmail.com`
+- **Password:** `password123`
+
 ## Deployment
 - **Frontend**: Deployed on Vercel. Includes a `vercel.json` for proper React Router SPA fallback.
 - **Backend**: Deployed on Render.
