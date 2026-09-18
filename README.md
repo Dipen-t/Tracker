@@ -49,11 +49,10 @@ npm install
 npm run dev         # Starts frontend on http://localhost:5173
 ```
 
+## Live Demo
+**Frontend URL:** [https://tracker-chi-blue.vercel.app/](https://tracker-chi-blue.vercel.app/)
+
 ## Deployment
-- **Frontend**: Deploy on Vercel by connecting your GitHub repo and selecting the `frontend` root directory.
-- **Backend**: Deploy on Render or Railway, set the environment variables, and use `npm run build` and `npm start`.
-- **Database**: The application is configured to use a managed Postgres service. We use **Neon** for our serverless Postgres database. Simply retrieve the Postgres connection string from your Neon dashboard and set it as the `DATABASE_URL` environment variable on your backend host.
-
-## Screenshots
-
-*(Add screenshots of your dashboard, time logs, and AI auto-generate feature here!)*
+- **Frontend**: Deployed on Vercel. Includes a `vercel.json` for proper React Router SPA fallback.
+- **Backend**: Deployed on Render.
+- **Database**: We use **Neon** for our serverless Postgres database. Simply retrieve the Postgres connection string from your Neon dashboard and set it as the `DATABASE_URL` environment variable on your backend host.
